@@ -26,11 +26,27 @@
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+.btn-1{
+    /* background-color: #FD6E0A; */
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
 /* main style */
 header {
-    background-color: #FFF8F3;
+    /* background-color: #FFF8F3; */
     padding-top: 50px;
+    background: url("../images/developer.png") , url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+    
 }
 
 nav {
@@ -53,3 +69,43 @@ nav .menu a {
     color: #474747;
     text-decoration: none;
 }
+
+.bannar{
+    display: flex;
+    width: 78%;
+    max-width: 1332px;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 47px 38px 0 230px;
+    overflow: hidden;
+    
+}
+.bannar-content{
+    max-width: 585px;   
+}
+.bannar-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.bannar-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #010101;
+    margin-bottom: 20px;
+}
+.bannar-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.bannar-image{
+    max-width: 585px;
+    vertical-align: middle;
+    position: relative;
+    bottom: -20px;
+}
+
