@@ -64,7 +64,7 @@ header {
     background: url("../images/developer.png") , url("../images/header_bg.png"), #FFF8F3;
     background-repeat: no-repeat;
     background-position: 23px 38px, bottom right;
-    padding-top: 50px;
+    
 }
 
 nav {
@@ -76,7 +76,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-nav .menu{
+ .menu{
     display: flex;
     list-style: none;
     gap: 52px;
@@ -98,7 +98,6 @@ nav .menu a {
     align-items: center;
     align-content: center;
     margin: 47px 38px 0 230px;
-    overflow: hidden;
     
 }
 .bannar-content{
@@ -125,7 +124,8 @@ nav .menu a {
     max-width: 585px;
     vertical-align: middle;
     position: relative;
-    bottom: -20px;
+    bottom: -30px;
+
 }
 
 .about-container{
@@ -227,8 +227,8 @@ hr{
     line-height: 28px;
     
 }
-button{
-    margin-top: 63px;
+.cvbtnbaba button{
+    margin-top: 60px;
 }
 
 footer{
@@ -274,7 +274,12 @@ footer{
 .footer-container .textarea {
     margin-bottom: 24px;
 }
-
+.btncontainer {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
 
 
